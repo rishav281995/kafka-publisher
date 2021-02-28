@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor // lombok added
+@AllArgsConstructor 
 public class User {
 	private int id;
 	private String name;
